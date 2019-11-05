@@ -10,7 +10,7 @@ describe('Basic app context', () => {
     })
 
     it('getting env', async () => {
-        const env = AppContext.getEnv()
+        const env = await AppContext.getEnv()
         expect(env).to.equal('dev')
     })
 })

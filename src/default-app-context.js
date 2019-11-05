@@ -10,7 +10,7 @@ const app = {
         
     },
     getEnv: function () {
-        return 'dev'
+        return Promise.resolve('dev')
     }
 }
 
