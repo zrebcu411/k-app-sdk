@@ -29,9 +29,6 @@ function getEnv() {
     return _getApp().getEnv()      
 }
 
-// setup default impl
-_setApp(defaultApp)
-
 module.exports = {
     setItem,
     getItem,
